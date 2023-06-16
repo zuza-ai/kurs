@@ -2,7 +2,7 @@
 
 # Нужно собрать информацию об операционной системе и версии пайтона
 
-import os, platform, sys
+import platform, sys
 
 info = 'OS info is \n{}\n\nPython version is {} {}'.format(platform.uname(), sys.version, platform.architecture())
 print(info)
