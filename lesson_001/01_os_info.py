@@ -2,8 +2,6 @@
 
 # Нужно собрать информацию об операционной системе и версии пайтона
 
-# TODO: запустить этот скрипт закомитить результат его работы (файл os_info.txt)
-
 import os, platform, sys
 
 info = 'OS info is \n{}\n\nPython version is {} {}'.format(platform.uname(), sys.version, platform.architecture())
